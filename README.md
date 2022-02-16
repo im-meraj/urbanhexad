@@ -1,3 +1,3 @@
 # Urbanhexad
 
-A Architecture Website with CMS
+An Architectural Designs Website with CMS
