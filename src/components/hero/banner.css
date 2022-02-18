@@ -1,6 +1,12 @@
 .container {
+    display: flex;
     margin-top: 200px;
     margin-left: 10rem;
+}
+
+.right {
+    margin-top: 12px;
+    margin-left: auto;
 }
 
 .btn-primary {
