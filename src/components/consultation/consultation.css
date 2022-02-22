@@ -1,0 +1,46 @@
+.consultation__container {
+    display: flex;
+    
+    width: 70%;
+    height: 40vh;
+    margin: 0 auto;
+}
+
+.consultation__title {
+    font-family: 'Trebuchet MS',
+    'Lucida Sans Unicode',
+    'Lucida Grande',
+    'Lucida Sans',
+    Arial,
+    sans-serif;
+    line-height: 1.2;
+    color: #244d4d;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-top: 20%;
+    /* margin-bottom: 2%; */
+    width: 100%;
+}
+
+.consultation__cta__portion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 10%;
+}
+
+.consultation__cta__text {
+    font-size: 20px;
+    color: #244d4d;
+}
+
+.consultation__button {
+    padding: 16px 40px;
+    background-color: #244d4d;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}

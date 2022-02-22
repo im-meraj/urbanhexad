@@ -39,6 +39,10 @@ const Slider = () => {
                 return (
                   <motion.div className="slider-item" key={index}>
                     <img src={image} alt="" />
+                    <motion.div className="slider__info__item">
+                      <h6 className="info__title">Warung Boto Hotel</h6>
+                      <p className="info__text">Jogja, Indonesia</p>
+                    </motion.div>
                   </motion.div>
                 );
               })}
