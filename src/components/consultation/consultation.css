@@ -15,7 +15,7 @@
     sans-serif;
     line-height: 1.2;
     color: #244d4d;
-    font-size: 3.5rem;
+    font-size: 5.6rem;
     font-weight: bold;
     margin-top: 20%;
     /* margin-bottom: 2%; */
@@ -30,15 +30,15 @@
 }
 
 .consultation__cta__text {
-    font-size: 20px;
+    font-size: 2rem;
     color: #244d4d;
 }
 
 .consultation__button {
-    padding: 16px 40px;
+    padding: 1.6rem 4rem;
     background-color: #244d4d;
     color: #ffffff;
-    font-size: 1rem;
+    font-size: 1.8rem;
     cursor: pointer;
     border: none;
     cursor: pointer;

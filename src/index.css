@@ -7,6 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body::-webkit-scrollbar {
   display: none;
 }
@@ -14,4 +18,16 @@ body::-webkit-scrollbar {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media (max-width: 99.8rem) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 76.8rem) {
+  html {
+    font-size: 45%;
+  }
 }

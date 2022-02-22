@@ -8,8 +8,8 @@
 }
 
 .left__img {
-    height: 700px;
-    width: 600px;
+    height: 70rem;
+    width: 60rem;
 }
 
 .section1__img {
@@ -26,7 +26,7 @@
     sans-serif;
     line-height: 1.2;
     color: #244d4d;
-    font-size: 3.5rem;
+    font-size: 5.6rem;
 }
 
 .right__text__container {
@@ -36,13 +36,13 @@
 }
 
 .section1__head {
-    margin-bottom: 2rem;
-    font-size: 3.8rem;
+    margin-bottom: 3.2rem;
+    font-size: 6.08rem;
 }
 
 .section1__text {
-    margin-bottom: 4rem;
-    font-size: 20px;
+    margin-bottom: 6.4rem;
+    font-size: 2rem;
     color: #244d4d;
 }
 
@@ -52,15 +52,15 @@
 }
 
 .info__item {
-    margin-right: 100px;
+    margin-right: 10rem;
 }
 
 .lgText {
-    font-size: 2.5rem;
+    font-size: 4rem;
     color: #244d4d;
 }
 
 .smText {
-    font-size: 1rem;
+    font-size: 1.6rem;
     color: #244d4d;
 }

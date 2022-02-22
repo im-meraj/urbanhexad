@@ -28,7 +28,7 @@
     sans-serif;
     line-height: 1.2;
     color: #244d4d;
-    font-size: 3.5rem;
+    font-size: 5.6rem;
     font-weight: bold;
 }
 
@@ -47,16 +47,16 @@
 }
 
 .slider-item {
-    min-height: 40rem;
-    min-width: 30rem;
+    min-height: 64rem;
+    min-width: 48rem;
     padding: 40px;
     position: relative;
 }
 
 .slider__info__item {
     position: absolute;
-    bottom: 60px;
-    left: 60px;
+    bottom: 6rem;
+    left: 6rem;
     color: #fff;
 }
 

@@ -10,22 +10,22 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 4rem 4rem;
+    margin: 6.4rem 6.4rem;
 }
 
 .logo {
-    font-size: 1.125rem;
+    font-size: 1.8rem;
     font-weight: bold;
     color: #244d4d;
-    margin-left: 30px;
+    margin-left: 3rem;
     cursor: pointer;
 }
 
 .box {
-    padding: 16px 40px;
+    padding: 1.6rem 4rem;
     background-color: #244d4d;
     color: #ffffff;
-    font-size: 1.125rem;
+    font-size: 1.8rem;
     cursor: pointer;
 }
 
@@ -37,17 +37,17 @@ h1 {
 }
 
 .nav-links>ul>li {
-    margin-right: 5rem;
+    margin-right: 8rem;
 }
 
 .nav-links>ul>li>span>a {
-    font-size: 1.125rem;
+    font-size: 1.8rem;
     text-decoration: none;
     color: #ffffff;
 }
 
 .nav-links>ul>li>a {
-    font-size: 1.125rem;
+    font-size: 1.8rem;
     text-decoration: none;
     color: #244d4d;
     font-weight: bold;

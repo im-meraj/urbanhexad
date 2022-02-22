@@ -18,7 +18,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.2;
     color: #244d4d;
-    font-size: 3.5rem;
+    font-size: 5.6rem;
     font-weight: bold;
     margin-top: 20%;
     margin-bottom: 2%;
@@ -42,11 +42,11 @@
 }
 
 .review__slide__text {
-    font-size: 26px;
+    font-size: 2.6rem;
     color: #244d4d;
     line-height: 1.8;
-    padding-left: 30px;
-    padding-top: 30px;
+    padding-left: 3rem;
+    padding-top: 3rem;
 }
 
 .review__bottom {
@@ -72,5 +72,5 @@
 
 .arrow__icon-left, .arrow__icon-right {
     cursor: pointer;
-    margin-right: 20px;
+    margin-right: 2rem;
 }
