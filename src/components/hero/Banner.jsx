@@ -18,6 +18,7 @@ const Banner = () => {
           </div>
             <div className="right">
           <img
+            className="banner__img"
             src="https://res.cloudinary.com/immeraj/image/upload/v1645103329/banner_nauaiv.png"
             alt="banner"
           />

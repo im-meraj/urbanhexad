@@ -10,7 +10,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 6.4rem 6.4rem;
+    margin: 6.4rem;
 }
 
 .logo {
@@ -27,6 +27,7 @@ h1 {
     color: #ffffff;
     font-size: 1.8rem;
     cursor: pointer;
+    box-sizing: border-box;
 }
 
 .nav-links>ul {
@@ -51,4 +52,31 @@ h1 {
     text-decoration: none;
     color: #244d4d;
     font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar{
+        width: 100vw;
+        height: 10vh;
+        /* background-color: aqua; */
+        margin: 0rem;
+    }
+
+    .logo {
+        margin: 0rem;
+        padding-left: 5rem;
+    }
+
+    .nav-links>ul {
+        justify-content: flex-end;
+    }
+
+    .nav-links>ul>li {
+        margin-left: 8rem;
+        margin-right: 0rem;
+    }
+
+    .nav-links>ul>li:last-child {
+        margin-right: 8rem;
+    }
 }

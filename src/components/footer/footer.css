@@ -40,3 +40,38 @@
     color: #244d4d;
     font-weight: bold;
 }
+
+@media screen and (max-width: 768px) {
+    .footer__container {
+        width: 100vw;
+        height: 20vh;
+        /* background-color: aqua; */
+        justify-content: space-evenly;
+        margin: 0rem;
+    }
+
+    .footer__logo {
+        font-size: 1.4rem;
+        margin: 0rem;
+    }
+
+    .footer-links>ul {
+        justify-content: space-between;
+    }
+
+    .footer-links>ul>li>a {
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+
+    .footer-links>ul>li {
+        font-size: .8rem;
+        padding-left: 3rem;
+        margin-right: 0rem;
+    }
+
+    .footer-links>ul>li:last-child {
+        padding-right: 2rem;
+    }
+    
+}

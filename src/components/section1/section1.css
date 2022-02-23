@@ -1,5 +1,10 @@
-.section__container {
-    width: 100%;
+.white__container {
+    width: 100vw;
+    background-color: #fefaf6;
+}
+
+.section1__container {
+    width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -63,4 +68,43 @@
 .smText {
     font-size: 1.6rem;
     color: #244d4d;
+}
+
+@media screen and (max-width: 768px) {
+    .section1__container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .left__img {
+        height: 50rem;
+        width: 40rem;
+    }
+
+    .section1__left {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section1__right {
+        width: 100%;
+    }
+
+    .section1__head {
+        font-size: 4.6rem;
+    }
+
+    .section1__text {
+        font-size: 1.4rem;
+    }
+
+    .lgText {
+        font-size: 3.2rem;
+    }
+
+    .smText {
+        font-size: 1.2rem;
+    }
 }
