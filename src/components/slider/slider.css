@@ -90,4 +90,11 @@
         font-size: 4.8rem;
         text-align: center;
     }
+
+    .slider__item {
+        min-height: 52rem;
+        min-width: 36rem;
+        padding: 30px;
+        position: relative;
+    }
 }

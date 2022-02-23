@@ -2,7 +2,7 @@ import './consultation.css';
 
 const Consultation = () => {
     return (
-        <div>
+        
             <div className="consultation">
                 <div className="consultation__container">
                     <div className="consultation__header"><h2 className="consultation__title">Get Our<br/>Free Consultation</h2></div>
@@ -14,7 +14,6 @@ const Consultation = () => {
                     </div>
                 </div>
             </div>
-        </div>
     );
 }
 
