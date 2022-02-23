@@ -17,6 +17,13 @@
 }
 
 .section2__title {
+    font-family: 'Trebuchet MS',
+    'Lucida Sans Unicode',
+    'Lucida Grande',
+    'Lucida Sans',
+    Arial,
+    sans-serif;
+    line-height: 1.2;
     font-size: 6.4rem;
     color: #244d4d;
     margin-top: 5rem;
@@ -73,7 +80,7 @@
     font-size: 1.8rem;
 }
 
-@media (max-width: 768px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     .section2 {
         height: 70vh;
     }
@@ -114,5 +121,56 @@
 
     .btn-text {
         font-size: 1.6rem;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .section2 {
+        height: 70vh;
+    }
+
+    .section2__container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .section2__top {
+        width:90%;
+        margin: 0 auto;
+        margin-bottom: 14.4rem;
+    }
+
+    .section2__title {
+        font-size: 4.8rem;
+        text-align: center;
+        /* margin-left: 5rem; */
+    }
+
+    .section2__bottom {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .card__container {
+        width: 90%;
+        gap: 3rem;
+        margin: 0 auto;
+    }
+
+    .card__title {
+        font-size: 2.4rem;
+    }
+
+    .card__text {
+        font-size: 1.6rem;
+    }
+
+    .card__btn>button {
+        font-size: 1.4rem;
+        padding: 1rem;
+    }
+
+    .btn-text {
+        font-size: 1.4rem;
     }
 }

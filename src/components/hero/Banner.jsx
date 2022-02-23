@@ -6,11 +6,11 @@ const Banner = () => {
       <>
         <div className="container">
           <div className="left">
-            <h1 className="banner-heading">
+            <h1 className="banner__heading">
               We Believe in <br />
               Great Architecture
             </h1>
-            <p className="banner-text">
+            <p className="banner__text">
               The first and most trusted marketplace of <br /> design & build
               house in The World
             </p>

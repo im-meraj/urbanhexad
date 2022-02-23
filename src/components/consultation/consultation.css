@@ -1,6 +1,5 @@
 .consultation__container {
     display: flex;
-    
     width: 70%;
     height: 40vh;
     margin: 0 auto;
@@ -43,4 +42,45 @@
     border: none;
     cursor: pointer;
     outline: none;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .consultation__container {
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .consultation__title {
+        font-size: 4.8rem;
+        text-align: center;
+        margin-top: 8rem;
+        margin-bottom: 4rem;
+        width: 100%;
+    }
+
+    .consultation__cta__portion {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 0;
+    }
+
+    .consultation__cta__text {
+        font-size: 1.6rem;
+        text-align: center;
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+
+    .consultation__cta__button {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .consultation__button {
+        padding: 1.6rem 4rem;
+        font-size: 1.6rem;
+    }
 }

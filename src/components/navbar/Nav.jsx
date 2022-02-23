@@ -1,5 +1,5 @@
-import React from 'react';
 import './nav.css';
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Nav = () => {
     return (
@@ -7,7 +7,7 @@ const Nav = () => {
         <div className="logo">
           <h1>UrbanHexad</h1>
         </div>
-        <div className="nav-links">
+        <div className="nav__links">
           <ul>
             <li>
               <a href="/">Home</a>
@@ -24,6 +24,7 @@ const Nav = () => {
               </a>
             </li>
           </ul>
+          <GiHamburgerMenu className="hamburger__menu" />
         </div>
       </div>
     );
