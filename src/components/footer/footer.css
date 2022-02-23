@@ -81,6 +81,8 @@
         width: 90vw;
         height: 20vh;
         margin: 0 auto;
+        flex-direction: column;
+        justify-content: space-evenly;
     }
 
     .footer__logo {
