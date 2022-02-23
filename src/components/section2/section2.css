@@ -180,4 +180,8 @@
     .btn-text {
         font-size: 1.4rem;
     }
+
+    .card__item {
+        margin-bottom: 2rem;
+    }
 }
