@@ -50,9 +50,10 @@
     }
     .consultation__container {
         width: 100vw;
+        height: auto;
         margin: 0 auto;
         flex-direction: column;
-        padding: 5rem 0;
+        margin: 5rem 0;
     }
 
     .consultation__title {
