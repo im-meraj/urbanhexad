@@ -52,7 +52,7 @@
         width: 100vw;
         margin: 0 auto;
         flex-direction: column;
-        padding-top: 5rem;
+        padding: 5rem 0;
     }
 
     .consultation__title {
