@@ -47,10 +47,11 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
     .consultation__container {
         width: 100vw;
+        height: 80vh;
     }
     .consultation__container {
         width: 100vw;
-        height: auto;
+        height: 40vh;
         margin: 0 auto;
         flex-direction: column;
         margin: 5rem 0;
